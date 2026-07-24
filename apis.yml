@@ -1,8 +1,30 @@
 aid: can-capital
 name: Can Capital
-description: 'Can Capital is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  CAN Capital is a small business financing company that provides short-term
+  working capital loans, equipment financing, and ecommerce loans to small
+  business owners across the United States. One of the earliest alternative
+  small-business lenders, the company has facilitated more than 190,000 funding
+  transactions totaling over $8 billion in working capital, underwriting on
+  business performance and daily/weekly revenue rather than traditional credit
+  criteria. Borrowers apply online, receive fast funding decisions, and manage
+  their accounts through a self-service client portal. Surfaced as a portfolio
+  company of Accel and profiled in the API Evangelist network; CAN Capital
+  publishes a marketing site, application flow, and customer portal but no
+  public developer API or discovery surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/can-capital/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.cancapital.com/wp-content/themes/CANCapital/assets/images/Logo_White.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Financial Services
+- Lending
+- Small Business
+- Working Capital
+- Merchant Cash Advance
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +51,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.cancapital.com
+  url: https://www.cancapital.com
+- type: About
+  url: https://www.cancapital.com/WhoWeAre
+- type: Blog
+  url: https://www.cancapital.com/blog
+- type: Support
+  url: https://www.cancapital.com/ContactUs
+- type: HelpCenter
+  url: https://www.cancapital.com/FAQs
+- type: SignUp
+  url: https://applynow.cancapital.com/
+- type: Login
+  url: https://myportal.cancapital.com/
+- type: TermsOfService
+  url: https://www.cancapital.com/Policy/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.cancapital.com/Policy/can-capital-privacy-policy/
+- type: DomainSecurity
+  url: security/can-capital-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

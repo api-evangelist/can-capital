@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of https://www.cancapital.com/.well-known/*
+host: https://www.cancapital.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+note: >-
+  No /.well-known discovery documents are published. CAN Capital operates a
+  marketing/origination website with a client portal and application flow, but
+  exposes no public API or discovery surface. Absence recorded as valid data.
