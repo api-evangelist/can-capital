@@ -48,7 +48,7 @@ modified: '2026-07-18'
 tags:
 - Company
 - Consumer
-- Financial-Services
+- Financial Services
 - Lending
 - Small Business
 - Working Capital
@@ -63,6 +63,7 @@ tags_raw:
 - Working Capital
 - Merchant Cash Advance
 - Fintech
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
